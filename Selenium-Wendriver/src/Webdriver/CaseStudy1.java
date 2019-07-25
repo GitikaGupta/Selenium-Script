@@ -23,6 +23,7 @@ public class CaseStudy1 {
 		Actions act = new Actions(driver);
 		Action mouseover = act.moveToElement(link).build();
 		mouseover.perform();
+		/////
 		act.sendKeys(link,(Keys.ENTER)).build().perform();
 		try {
 			Thread.sleep(2000);
